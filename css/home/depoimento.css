@@ -13,7 +13,7 @@
 }
 
 .depoimento-conteudo {
-  padding: 40px 40px 120px 80px;
+  padding: 40px 40px 80px 80px;
   align-self: end;
 }
 
@@ -53,6 +53,6 @@
   }
   .depoimento-conteudo {
     padding: 40px 20px;
-    justify-self: center;
+    margin: auto;
   }
 }

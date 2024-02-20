@@ -15,7 +15,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
   gap: 40px 80px;
-  overflow: hidden;
 }
 
 .vantagens h3,
@@ -28,11 +27,10 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .vantanges h2 {
+  .vantagens h2 {
     margin-bottom: 40px;
   }
   .vantagens ul {
     gap: 20px;
-    overflow: hidden;
   }
 }

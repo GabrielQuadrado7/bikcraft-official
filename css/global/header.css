@@ -28,7 +28,7 @@
   content: "";
   display: block;
   height: 2px;
-  width: 0%;
+  width: 0px;
   background: var(--cor-0);
   margin-top: 4px;
   transition: 0.3s;
@@ -58,7 +58,7 @@
 
 @media (max-width: 600px) {
   .header-menu {
-    gap: 20px;
+    gap: 12px;
   }
   .header-menu a {
     padding: 8px 12px;

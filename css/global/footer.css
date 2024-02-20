@@ -1,5 +1,5 @@
 .footer-bg {
-  background-color: #000000;
+  background-color: var(--cor-12);
 }
 
 .footer {
@@ -19,10 +19,9 @@
 }
 
 .footer-contato li:nth-child(even):after {
-  /*So no elemento 2 e elemento 4, so pode ser even se for 4 elementos, se estiver mais um elemento no endereço falando de bairro o ideial seria utilizar o número que quer. Ex.: Segundo e quinto item.*/
   content: "";
   display: block;
-  max-width: 100%;
+  max-width: 360px;
   height: 2px;
   background: var(--cor-11);
   margin-top: 16px;

@@ -34,9 +34,13 @@
   align-content: start;
 }
 
-.bicicletas-conteudo h2,
-.bicicletas-conteudo p {
+.bicicletas h2,
+.bicicletas p {
   grid-column: 1/-1;
+}
+
+.bicicletas h2 {
+  margin-bottom: 20px;
 }
 
 .bicicletas h2::before {
@@ -75,7 +79,6 @@
   .bicicletas-bg {
     background: var(--cor-11);
   }
-
   .bicicletas {
     grid-template-columns: 1fr;
     gap: 20px;

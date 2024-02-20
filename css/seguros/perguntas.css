@@ -1,6 +1,6 @@
 .perguntas {
-  padding-bottom: 120px;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .perguntas h2 {
@@ -12,7 +12,7 @@
   border-radius: 4px;
 }
 
-.perguntas dl > div > :nth-child(odd) {
+.perguntas dl > div:nth-child(odd) {
   background-color: var(--cor-1);
 }
 
@@ -50,6 +50,7 @@
   padding-top: 16px;
   max-width: 80ch;
 }
+
 @media (max-width: 800px) {
   .perguntas {
     padding-top: 60px;
