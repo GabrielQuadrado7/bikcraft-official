@@ -27,6 +27,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto; /* Vai crescer de acordo com o tamanho da imagem */
   display: block;
 }
 
