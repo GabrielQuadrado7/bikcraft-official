@@ -45,7 +45,7 @@ function ativarPergunta(event){
 
 function eventosPerguntas(pergunta){
     pergunta.addEventListener('click', ativarPergunta);
-}
+} 
 
 perguntas.forEach(eventosPerguntas);
 
@@ -67,3 +67,8 @@ function eventosGaleria (img){
 }
 
 galeria.forEach(eventosGaleria);
+
+//Animação
+if(window.SimpleAnime){
+    new SimpleAnime();
+}
